@@ -110,10 +110,10 @@ addPastRace()
     newBlogPostHeader.style.color = 'white'
 
     let newBlogPostText = document.createElement('p')
-    newBlogPostText.textContent = 'In New York I retired'
+    newBlogPostText.textContent = 'IN NEW YORK I RETIRED!'
 
     newBlogPost.appendChild(newBlogPostHeader)
-    newBlogPostHeader.appendChild(newBlogPostText)
+    newBlogPost.appendChild(newBlogPostText)
     document.querySelector('.main').appendChild(newBlogPost)
 
 
