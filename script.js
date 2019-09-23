@@ -101,18 +101,20 @@ addPastRace()
   // Think about what order you want to create the elements, and what order you want to append them in.
   function createNewBlogPost() {
     let newBlogPost = document.createElement('div')
-    newBlogPost.setAttribute('class', '.blog-post')
-    document.querySelector('.main').appendChild(newBlogPost)
+     newBlogPost.className = 'blog-post purple'
+    
 
 
     let newBlogPostHeader = document.createElement('h2')
     newBlogPostHeader.textContent = document.querySelector('#past-races').lastChild.textContent
+    newBlogPostHeader.style.color = 'white'
 
     let newBlogPostText = document.createElement('p')
     newBlogPostText.textContent = 'In New York I retired'
 
     newBlogPost.appendChild(newBlogPostHeader)
     newBlogPostHeader.appendChild(newBlogPostText)
+    document.querySelector('.main').appendChild(newBlogPost)
 
 
   }
