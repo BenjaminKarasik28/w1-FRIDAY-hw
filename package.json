@@ -16,7 +16,7 @@
   "dependencies": {
     "chai": "^4.1.0",
     "eslint": "^4.3.0",
-    "jsdom": "^11.1.0",
+    "jsdom": "^16.5.0",
     "mocha": "^3.4.2"
   },
   "devDependencies": {
